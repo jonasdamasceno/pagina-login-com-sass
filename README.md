@@ -60,7 +60,7 @@ Primeiramente, iniciaremos o Live Server e o Live Sass. Assim, começaremos edit
         <!-- Conteúdo -->
     </main>
 </body>
-</html>
+</html>```
 Estilização
 Variáveis
 Antes de começar, vamos iniciar nossas variáveis que utilizaremos para essa página:
