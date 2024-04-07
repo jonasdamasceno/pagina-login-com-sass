@@ -6,7 +6,7 @@ Este projeto consiste na criação de uma landing page utilizando Sass para a es
 
 ## Autor
 
-**Lucas Ribeiro**
+**Jonas Michael Oliveira Damasceno**
 
 ## Introdução
 
