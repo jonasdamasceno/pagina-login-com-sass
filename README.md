@@ -1,5 +1,3 @@
-# pagina-login-com-sass
-
 # Criando Landing Page com Sass
 
 Este projeto consiste na criação de uma landing page utilizando Sass para a estilização.
@@ -43,50 +41,36 @@ Copy code
 
 Primeiramente, iniciaremos o Live Server e o Live Sass. Assim, começaremos editando o `index.html`, que terá a estrutura inicial de HTML5:
 
-```html
-<!DOCTYPE html>
+```<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.scss">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <h1>Aprenda Marketing</h1>
+        <h1>Aprenda Markenting</h1>
     </header>
     <main>
-        <!-- Conteúdo -->
+        <div class="text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Lorem ipsum dolor sit amet, adipiscing.</p>
+            <p>Lorem ipsum dolor sit amet elit.</p>
+        </div>
+        <div class="form">
+            <h2>Preencha abaixo os campos para receber os videos</h2>
+            <form>
+                <label>Nome</label>
+                <input type="text"/>
+                <label>Email</label>
+                <input type="email"/>
+                <label>Setor</label>
+                <input type="text"/>
+                <button>Enviar</button>
+            </form>
+        </div>
     </main>
 </body>
-</html>```
-Estilização
-Variáveis
-Antes de começar, vamos iniciar nossas variáveis que utilizaremos para essa página:
-
-scss
-Copy code
-$background: #00000040;
-$font-color: #fff;
-$font-size-text: 20px;
-Global
-scss
-Copy code
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-}
-
-html {
-    min-height: 100%;
-    body {
-        background-image: url("background.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100%;
-        padding: 40px;
-    }
-}
+</html>
